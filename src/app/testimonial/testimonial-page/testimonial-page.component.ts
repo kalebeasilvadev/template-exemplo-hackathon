@@ -31,7 +31,7 @@ import { FeedbackBlockComponent } from '../feedback-block/feedback-block.compone
 	imports: [FeedbackBlockComponent, AsyncPipe],
 })
 export class TestimonialPageComponent implements OnInit {
-	testimonials$: Observable<Testimonial[]>;
+	testimonials$: Observable<Testimonial>;
 	feedback$: Observable<Feedback[]>;
 
 	constructor(private config: ConfigService) {}

@@ -1,7 +1,11 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { RouterLinkActive, RouterLink } from '@angular/router';
 
-interface MenuItem {}
+interface MenuItem {
+	id: number;
+	title: string;
+	link: string;
+}
 
 @Component({
 	selector: 'app-navmenu',

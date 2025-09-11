@@ -13,7 +13,7 @@ import { CompaniesBlockComponent } from '../companies-block/companies-block.comp
 	imports: [CompaniesBlockComponent, AsyncPipe],
 })
 export class ClientsPageComponent implements OnInit {
-	clients$: Observable<Client[]> = new Observable();
+	clients$: Observable<Client> = new Observable();
 	companies$: Observable<Company[]> = new Observable();
 	constructor(private config: ConfigService) {}
 
