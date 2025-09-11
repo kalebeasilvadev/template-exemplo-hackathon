@@ -1,0 +1,63 @@
+name: Deploy — GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      # Ajusta o base-href para GitHub Pages: /<nome-do-repo>/
+      - name: Build Angular
+        run: npm run build -- --configuration=production --base-href "/${{ github.event.repository.name }}/"
+
+      # Detecta o caminho do build (Angular 17 costuma gerar .../browser/)
+      - name: Detect dist path
+        id: dist
+        shell: bash
+        run: |
+          DIST=$(ls -d dist/*/browser 2>/dev/null || ls -d dist/* 2>/dev/null | head -n 1)
+          echo "path=$DIST" >> "$GITHUB_OUTPUT"
+
+      # (Opcional) Se usar Angular Router, ative fallback SPA:
+      - name: SPA 404 fallback
+        run: cp "${{ steps.dist.outputs.path }}/index.html" "${{ steps.dist.outputs.path }}/404.html"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.dist.outputs.path }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
