@@ -120,7 +120,7 @@ figure {
 .page-border > .bottom-border,
 .page-border > .left-border {
   padding: 11px;
-  background: #ccc;
+  background: #f3f3ef;
 }
 
 .page-border .bottom-border,
@@ -759,7 +759,7 @@ h4 {
 .section-heading h3 {
   font-size: 14px;
   font-weight: bold;
-  color: #ccc;
+  color: #f3f3ef;
   letter-spacing: 2px;
   padding-bottom: 0;
 }
@@ -1172,7 +1172,7 @@ blockquote {
 
 .pricing-sub {
   font-style: italic;
-  color: #ccc;
+  color: #f3f3ef;
   margin: 0 0 25px 0;
 }
 
@@ -1254,7 +1254,7 @@ blockquote {
 }
 
 #scrollUp:before {
-  background: #ccc;
+  background: #f3f3ef;
   font-family: "fontawesome";
   font-size: 2.4em;
   font-style: normal;
@@ -2112,29 +2112,29 @@ body {
 
 a,
 .la-ball-triangle-path {
-  color: #d2b356;
+  color: #8B7914;
 }
 
 a:hover,
 #header.nav-solid nav a:hover {
-  color: #d2b356;
+  color: #8B7914;
 }
 
 /* Default Icon Color */
 
 .icon i {
-  color: #d2b356;
+  color: #8B7914;
 }
 
 /* Border Color */
 
 #banner .section-heading:before,
 .testimonial.classic footer:before {
-  background: #d2b356;
+  background: #8B7914;
 }
 
 .pricing-block-content:hover {
-  border-color: #d2b356;
+  border-color: #8B7914;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -2160,8 +2160,8 @@ a:hover,
 /* Navigation Active State */
 
 #header.nav-solid .active {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #8B7914;
+  border-color: #8B7914;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -2172,7 +2172,7 @@ a:hover,
 
 .primary-color,
 .featured .pricing {
-  background-color: #d2b356;
+  background-color: #8B7914;
 }
 
 .primary-color,
@@ -2184,7 +2184,7 @@ a:hover,
 }
 
 .section-heading h2:after {
-  background: #d2b356;
+  background: #8B7914;
   content: "";
   display: block;
   width: 30px;
@@ -2277,7 +2277,7 @@ body {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 300;
-  color: #9c9c9c;
+  color: #636363;
 }
 
 /* Testimonial */
@@ -2350,8 +2350,8 @@ h4 {
 /* Button Hover Color */
 
 #banner .button:hover {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #8B7914;
+  border-color: #8B7914;
 }
 
 /*------------------------------------------------------------------------------------------*/
