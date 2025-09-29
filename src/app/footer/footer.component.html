@@ -1,15 +1,15 @@
 @if (footer$ | async; as footer) {
   <footer id="landing-footer" class="clearfix">
-    <h2 class="row clearfix" tabindex="-1">
-      <h2 id="copyright" class="col-2">
+    <h1 class="row clearfix" tabindex="-1">
+      <h1 id="copyright" class="col-2" tabindex="-1">
         {{ footer.tagline }}
-        <a routerLink="{{ footer.developerlink }}">{{ footer.developer }}</a>
-      </h2>
+        <button routerLink="{{ footer.developerlink }}">{{ footer.developer }}</button>
+      </h1>
       <!--Social Icons in Footer-->
-      <h2 class="col-2" style="text-align: right" tabindex="-1">
-        <app-social></app-social>
-      </h2>
+      <h1 class="col-2" style="text-align: right" tabindex="-1">
+        <buttonpp-social tabindex="não definido"></app-social>
+      </h1>
       <!--End of Social Icons in Footer-->
-    </h2>
+    </h1>
   </footer>
 }

@@ -1,6 +1,6 @@
 @if (header$ | async; as header) {
-	<nav tabindex="-1" role="banner">
-		<nav
+	<main tabindex="-1" role="banner" alt="Imagem de fundo do banner">
+		<main
 			id="banner"
 			class="scrollto clearfix shift-left"
 			data-enllax-ratio=".5"
@@ -8,16 +8,16 @@
 				'url(../assets/images/banner-images/' +
 				header.image +
 				' ) no-repeat center top;'
-			" role="banner" tabindex="-1">
-			<nav id="banner-content" class="row clearfix pull-right" tabindex="-1" role="banner">
-				<nav class="col-38" tabindex="-1" role="banner">
-					<nav class="section-heading" tabindex="-1" role="banner">
-						<h2 aria-label="Tagline">Tagline</h2>
-						<h2 aria-label="Título">{{ header.title }}</h2>
-					</nav>
-					<a routerLink="{{ header.buttonlink }}" class="button" aria-label="Botão">Botão</a>
-				</nav>
-			</nav>
-		</nav>
-	</nav>
+			" role="banner" tabindex="-1" alt="Imagem de fundo do banner">
+			<main id="banner-content" class="row clearfix pull-right" tabindex="-1" role="banner" alt="Imagem de fundo do banner">
+				<main class="col-38" tabindex="-1" role="banner" alt="Imagem de fundo do banner">
+					<main class="section-heading" tabindex="-1" role="banner" alt="Imagem de fundo do banner">
+						<h1 aria-label="Tagline">Tagline</h1>
+						<h1 aria-label="Título">{{ header.title }}</h1>
+					</main>
+					<button routerLink="{{ header.buttonlink }}" class="button" aria-label="Botão">Botão</button>
+				</main>
+			</main>
+		</main>
+	</main>
 }
