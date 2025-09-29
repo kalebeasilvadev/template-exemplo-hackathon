@@ -4,14 +4,14 @@
       <!--Logo-->
       <nav id="logo" aria-label="Menu principal">
         <!--Logo that is shown on the banner-->
-        <button src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo">
+        <button src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo" tabindex="0">
         <!--End of Banner Logo-->
 
         <!--The Logo that is shown on the sticky Navigation Bar-->
         <button
           src="assets/images/logo-2.png"
           id="navigation-logo"
-          alt="Landing Page" / aria-label="Elemento interativo">
+          alt="Landing Page" / aria-label="Elemento interativo" tabindex="0">
           <!--End of Navigation Logo-->
         </nav>
         <!--End of Logo-->
@@ -30,7 +30,7 @@
         <button
           [class.open]="menuOpen === true"
           (onClick)="toggleMenu(!menuOpen)"
-        (onKeyUp)="toggleMenu(!menuOpen)" aria-label="Abrir/fechar menu"></button>
+        (onKeyUp)="toggleMenu(!menuOpen)" aria-label="Abrir/fechar menu" alt="Landing Page" tabindex="0">Botão de logo</button>
       </nav>
       <nav id="nav-mobile" aria-label="Menu principal">
         @if (menuOpen === true) {
