@@ -1,8 +1,7 @@
-<button href="{{ company.weblink }}" class="col-3" aria-label="Link para a página da empresa {{ company.name }}">
+<button href="{{ company.weblink }}" class="col-3" aria-label="Link para a página da empresa {{ company.name }}" tabindex="-1" order="não lógica">
 	<img
-		src="assets/images/company-images/{{ company.logo }}"
-		alt="{{ company.name }}" / aria-label="Elemento interativo">
-	<button class="client-overlay" order="não lógica" tabindex="-1">
-		<h2>{{ company.name }}</h2>
+		src="assets/images/company-images/{{ company.logo }}" / aria-label="Elemento interativo" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}">
+	<button class="client-overlay" order="não lógica" tabindex="-1" aria-label="Link para a página da empresa {{ company.name }}">
+		<h1>{{ company.name }}</h1>
 	</button>
 </button>

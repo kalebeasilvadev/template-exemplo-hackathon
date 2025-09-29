@@ -5,13 +5,13 @@
 	[class.featured]="plan.featured" tabindex="-1">
 	<button class="pricing-block-content" tabindex="-1">
 		<h1>{{ plan.title }}</h1>
-		<p class="pricing-sub">{{ plan.subtitle }}</p>
+		<p class="pricing-sub">Descrição do plano</p>
 		<button class="pricing" tabindex="-1">
 			<button class="price" tabindex="-1">
 				<strong>{{ plan.currency }}</span
 				>{{ plan.price }}
 			</button>
-			<p>{{ plan.description }}</p>
+			<p>Descrição do plano</p>
 		</button>
 		<ul>
 			<li>{{ plan.downloads }}</li>
@@ -20,7 +20,7 @@
 			<li>{{ plan.support }}</li>
 			<li>{{ plan.updates }}</li>
 		</ul>
-		<button href="{{ plan.buttonlink }}" class="button" aria-label="{{ plan.buttontext }}" tabindex="0">{{ plan.buttontext }}</button>
+		<button href="{{ plan.buttonlink }}" class="button" aria-label="{{ plan.buttontext }}" tabindex="0">Clique para mais informações</button>
 	</button>
 </button>
 <!--End Pricing Block-->

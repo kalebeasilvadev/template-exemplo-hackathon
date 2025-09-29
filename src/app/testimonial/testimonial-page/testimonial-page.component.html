@@ -1,21 +1,21 @@
-<aside
+<main
 	id="testimonials"
 	class="scrollto text-center pull-right pull-left"
-	data-enllax-ratio=".2">
+	data-enllax-ratio=".2" role="region">
 	<section class="row clearfix" tabindex="-1">
 		@if (testimonials$ | async; as testimonial) {
 			<section class="section-heading" tabindex="-1">
-				<h3 class="pull-down" aria-label="Tagline do Testemunho">Tagline do Testemunho</h3>
-				<h2 class="section-title" aria-label="Título do Testemunho">{{ testimonial.title }}</h2>
+				<h1 class="pull-down" aria-label="Tagline do Testemunho">Tagline do Testemunho</h1>
+				<h1 class="section-title" aria-label="Título do Testemunho">{{ testimonial.title }}</h1>
 			</section>
 		}
 
 		<!--User Testimonial-->
 		@for (feedback of feedback$ | async; track feedback; let i = $index) {
 			<section tabindex="-1">
-				<app-feedback-block [feedback]="feedback" aria-label="Bloco de Feedback">Bloco de Feedback do Usuário</app-feedback-block>
+				<buttonpp-feedback-block [feedback]="feedback" aria-label="Bloco de Feedback">Bloco de Feedback do Usuário</app-feedback-block>
 			</section>
 		}
 		<!-- End of Testimonial-->
 	</section>
-</aside>
+</main>

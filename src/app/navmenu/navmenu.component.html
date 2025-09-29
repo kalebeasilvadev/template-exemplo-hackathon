@@ -1,12 +1,12 @@
 <nav [class.expanded]="menuOpen === true">
 	@for (menuItem of menu; track menuItem) {
 		<li>
-			<button
+			<nav
 				routerLink="{{ menuItem.link }}"
 				(click)="toggleMenu()"
 				routerLinkActive="active"
 				[routerLinkActiveOptions]="{ exact: true }"
-				 aria-label="Menu item {{menuItem.title}}">{{ menuItem.title }}</a
+				 aria-label="Menu item {{menuItem.title}}" tabindex="-1">{{ menuItem.title }}</a
 			>
 		</li>
 	}
