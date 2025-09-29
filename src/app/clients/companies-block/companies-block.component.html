@@ -1,8 +1,8 @@
-<a href="{{ company.weblink }}" class="col-3">
+<button href="{{ company.weblink }}" class="col-3">
 	<img
 		src="assets/images/company-images/{{ company.logo }}"
-		alt="{{ company.name }}" />
-	<div class="client-overlay">
-		<span>{{ company.name }}</span>
-	</div>
-</a>
+		alt="{{ company.name }}" / aria-label="Elemento interativo">
+	<button class="client-overlay">
+		<h2>{{ company.name }}</h2>
+	</button>
+</button>

@@ -21,29 +21,29 @@ body {
 
 a,
 .la-ball-triangle-path {
-  color: #d2b356;
+  color: #333;
 }
 
 a:hover,
 #header.nav-solid nav a:hover {
-  color: #d2b356;
+  color: #333;
 }
 
 /* Default Icon Color */
 
 .icon i {
-  color: #d2b356;
+  color: #333;
 }
 
 /* Border Color */
 
 #banner .section-heading:before,
 .testimonial.classic footer:before {
-  background: #d2b356;
+  background: #333;
 }
 
 .pricing-block-content:hover {
-  border-color: #d2b356;
+  border-color: #333;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -69,8 +69,8 @@ a:hover,
 /* Navigation Active State */
 
 #header.nav-solid .active {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #333;
+  border-color: #333;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -81,7 +81,7 @@ a:hover,
 
 .primary-color,
 .featured .pricing {
-  background-color: #d2b356;
+  background-color: #333;
 }
 
 .primary-color,
@@ -93,7 +93,7 @@ a:hover,
 }
 
 .section-heading h2:after {
-  background: #d2b356;
+  background: #333;
   content: "";
   display: block;
   width: 30px;
@@ -189,7 +189,7 @@ body {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 300;
-  color: #9c9c9c;
+  color: #636363;
 }
 
 /* Testimonial */
@@ -276,8 +276,8 @@ input[type="submit"] {
 
 .button:hover,
 input[type="submit"]:hover {
-  border-color: #d2b356;
-  color: #d2b356;
+  border-color: #333;
+  color: #333;
 }
 
 /* ----------Banner Buttons---------- */
@@ -299,8 +299,8 @@ input[type="submit"]:hover {
 /* Button Hover Color */
 
 #banner .button:hover {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #333;
+  border-color: #333;
 }
 
 /*------------------------------------------------------------------------------------------*/

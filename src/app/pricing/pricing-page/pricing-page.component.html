@@ -1,16 +1,16 @@
 <section id="pricing" class="secondary-color text-center scrollto clearfix">
-  <div class="row clearfix">
+  <button class="row clearfix" tabindex="-1">
     @if (pricing$ | async; as pricing) {
-      <div class="section-heading">
-        <h3 class="pull-down">{{ pricing.tagline }}</h3>
-        <h2 class="section-title">{{ pricing.title }}</h2>
-      </div>
+      <button class="section-heading" tabindex="-1">
+        <h3 class="pull-down" aria-label="Descrição da tagline">Preço</h3>
+        <h2 class="section-title" aria-label="Descrição do título">{{ pricing.title }}</h2>
+      </button>
     }
 
     @for (plan of plans$ | async; track plan; let i = $index) {
-      <div>
-        <app-pricing-block [plan]="plan"></app-pricing-block>
-      </div>
+      <button tabindex="-1">
+        <app-pricing-block [plan]="plan" aria-label="Descrição do plano"></app-pricing-block>
+      </button>
     }
-  </div>
+  </button>
 </section>
