@@ -4,9 +4,9 @@
 			<a
 				target="{{ website.target }}"
 				title="{{ website.title }}"
-				href="{{ website.link }}{{ website.username }}">
-				<i class="fa fa-{{ website.icon }} fa-1x"></i
-				><span>{{ website.title }}</span>
+				href="{{ website.link }}{{ website.username }}" aria-label="Link para {{ website.title }}">
+				<i class="fa fa-{{ website.icon }} fa-1x" aria-label="Ícone para {{ website.title }}"></i
+				><span aria-label="Título para {{ website.title }}">{{ website.title }}</span>
 			</a>
 		</li>
 	}
