@@ -1,11 +1,11 @@
 <section id="gallery" class="introduction scrollto text-center">
-	<button class="row clearfix">
+	<nav class="row clearfix">
 		<aside id="gallery" class="row text-center scrollto clearfix" aria-label="Descrição do galeria de imagens">
 			@for (image of images$ | async; track image; let i = $index) {
-				<button>
-					<app-image-block [image]="image"></app-image-block>
-				</button>
+				<nav>
+					<app-image-block [image]="image">Imagem</app-image-block>
+				</nav>
 			}
 		</aside>
-	</button>
+	</nav>
 </section>
