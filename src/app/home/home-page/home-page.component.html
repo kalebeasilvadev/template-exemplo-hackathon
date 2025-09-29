@@ -1,5 +1,5 @@
 @if (header$ | async; as header) {
-	<div>
+	<header tabindex="-1">
 		<header
 			id="banner"
 			class="scrollto clearfix shift-left"
@@ -9,17 +9,15 @@
 				header.image +
 				' ) no-repeat center top;'
 			">
-			<div id="banner-content" class="row clearfix pull-right">
-				<div class="col-38">
-					<div class="section-heading">
-						<h1>{{ header.tagline }}</h1>
-						<h2>{{ header.title }}</h2>
-					</div>
-					<a routerLink="{{ header.buttonlink }}" class="button">{{
-						header.buttontext
-					}}</a>
-				</div>
-			</div>
+			<header id="banner-content" class="row clearfix pull-right" tabindex="-1">
+				<header class="col-38" tabindex="-1">
+					<header class="section-heading" tabindex="-1">
+						<h1 aria-label="Tagline">Tagline</h1>
+						<h3 aria-label="Título">{{ header.title }}</h3>
+					</header>
+					<button routerLink="{{ header.buttonlink }}" class="button" aria-label="Botão">Botão</button>
+				</header>
+			</header>
 		</header>
-	</div>
+	</header>
 }
