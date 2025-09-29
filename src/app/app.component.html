@@ -1,21 +1,21 @@
-<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s" aria-label="Borda superior">
 	<div
 		class="top-border wow fadeInDown animated"
-		style="visibility: visible; animation-name: fadeInDown"></div>
+		style="visibility: visible; animation-name: fadeInDown" aria-label="Borda superior">Borda da página</div>
 	<div
 		class="right-border wow fadeInRight animated"
-		style="visibility: visible; animation-name: fadeInRight"></div>
+		style="visibility: visible; animation-name: fadeInRight" aria-label="Borda superior">Borda da página</div>
 	<div
 		class="bottom-border wow fadeInUp animated"
-		style="visibility: visible; animation-name: fadeInUp"></div>
+		style="visibility: visible; animation-name: fadeInUp" aria-label="Borda superior">Borda da página</div>
 	<div
 		class="left-border wow fadeInLeft animated"
-		style="visibility: visible; animation-name: fadeInLeft"></div>
+		style="visibility: visible; animation-name: fadeInLeft" aria-label="Borda superior">Borda da página</div>
 </div>
 <!--Main Content Area-->
 <main id="content">
-	<app-navigation></app-navigation>
-	<router-outlet></router-outlet>
-	<app-footer></app-footer>
+	<app-navigation aria-label="Navegação"></app-navigation>
+	<router-outlet aria-label="Conteúdo dinâmico"></router-outlet>
+	<app-footer aria-label="Rodapé"></app-footer>
 </main>
 <!--End Main Content Area-->

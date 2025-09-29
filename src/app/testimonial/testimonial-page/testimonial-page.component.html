@@ -2,20 +2,20 @@
 	id="testimonials"
 	class="scrollto text-center pull-right pull-left"
 	data-enllax-ratio=".2">
-	<div class="row clearfix">
+	<button class="row clearfix" tabindex="-1">
 		@if (testimonials$ | async; as testimonial) {
-			<div class="section-heading">
-				<h3 class="pull-down">{{ testimonial.tagline }}</h3>
+			<button class="section-heading" tabindex="-1">
+				<h1 class="pull-down">{{ testimonial.tagline }}</h1>
 				<h2 class="section-title">{{ testimonial.title }}</h2>
-			</div>
+			</button>
 		}
 
 		<!--User Testimonial-->
 		@for (feedback of feedback$ | async; track feedback; let i = $index) {
-			<div>
+			<button tabindex="-1">
 				<app-feedback-block [feedback]="feedback"></app-feedback-block>
-			</div>
+			</button>
 		}
 		<!-- End of Testimonial-->
-	</div>
+	</button>
 </aside>
