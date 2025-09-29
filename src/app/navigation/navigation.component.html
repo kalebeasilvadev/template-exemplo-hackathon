@@ -1,19 +1,19 @@
-<div id="header" class="nav-collapse nav-solid">
-  <div class="row clearfix">
-    <div class="col-1">
+<nav id="header" class="nav-collapse nav-solid" tabindex="-1">
+  <nav class="row clearfix" tabindex="-1">
+    <nav class="col-1" tabindex="-1">
       <!--Logo-->
-      <div id="logo">
+      <nav id="logo" tabindex="-1">
         <!--Logo that is shown on the banner-->
-        <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" />
+        <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo">
         <!--End of Banner Logo-->
 
         <!--The Logo that is shown on the sticky Navigation Bar-->
         <img
           src="assets/images/logo-2.png"
           id="navigation-logo"
-          alt="Landing Page" />
+          alt="Landing Page" / aria-label="Elemento interativo">
           <!--End of Navigation Logo-->
-        </div>
+        </nav>
         <!--End of Logo-->
 
         <!-- <aside>
@@ -22,25 +22,25 @@
 
       <!--Main Navigation-->
       <nav id="nav-main">
-        <app-navmenu [menu]="menu" [menuOpen]="true"></app-navmenu>
+        <app-navmenu [menu]="menu" [menuOpen]="true" aria-label="Menu de navegação"></app-navmenu>
       </nav>
       <!--End of Main Navigation-->
 
-      <div id="nav-trigger">
+      <nav id="nav-trigger" tabindex="-1">
         <span
           [class.open]="menuOpen === true"
           (onClick)="toggleMenu(!menuOpen)"
-        (onKeyUp)="toggleMenu(!menuOpen)"></span>
-      </div>
+        (onKeyUp)="toggleMenu(!menuOpen)" aria-label="Abrir/fechar menu"></span>
+      </nav>
       <nav id="nav-mobile">
         @if (menuOpen === true) {
           <app-navmenu
             [menu]="menu"
             (menuStatus)="toggleMenu($event)"
-          [menuOpen]="menuOpen"></app-navmenu>
+          [menuOpen]="menuOpen" aria-label="Menu de navegação"></app-navmenu>
         }
       </nav>
-    </div>
-  </div>
-</div>
+    </nav>
+  </nav>
+</nav>
 <!--End of Header-->
