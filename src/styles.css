@@ -110,7 +110,7 @@ figure {
 .page-border .left-border,
 .page-border .right-border,
 .page-border .top-border {
-  background: #333;
+  background: #f7f7f7;
   position: fixed;
   z-index: 9999;
 }
@@ -120,7 +120,7 @@ figure {
 .page-border > .bottom-border,
 .page-border > .left-border {
   padding: 11px;
-  background: #333;
+  background: #f7f7f7;
 }
 
 .page-border .bottom-border,
@@ -631,7 +631,7 @@ nav#nav-mobile li:last-child {
 nav#nav-mobile a {
   display: block;
   padding: 12px 0;
-  color: #333;
+  color: #f7f7f7;
   width: 100%;
   height: auto;
   line-height: normal;
@@ -759,7 +759,7 @@ h4 {
 .section-heading h3 {
   font-size: 14px;
   font-weight: bold;
-  color: #333;
+  color: #f7f7f7;
   letter-spacing: 2px;
   padding-bottom: 0;
 }
@@ -1172,7 +1172,7 @@ blockquote {
 
 .pricing-sub {
   font-style: italic;
-  color: #333;
+  color: #f7f7f7;
   margin: 0 0 25px 0;
 }
 
@@ -1254,7 +1254,7 @@ blockquote {
 }
 
 #scrollUp:before {
-  background: #333;
+  background: #f7f7f7;
   font-family: "fontawesome";
   font-size: 2.4em;
   font-style: normal;
@@ -1312,7 +1312,7 @@ blockquote {
 }
 
 .la-ball-triangle-path.la-dark {
-  color: #333;
+  color: #f7f7f7;
 }
 
 .la-ball-triangle-path > div {
@@ -2154,7 +2154,7 @@ a:hover,
 #header.nav-solid a,
 #header.nav-solid i,
 #nav-mobile ul li a {
-  color: #333;
+  color: #f7f7f7;
 }
 
 /* Navigation Active State */
