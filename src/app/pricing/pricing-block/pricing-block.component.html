@@ -2,16 +2,16 @@
 <button
 	class="pricing-block col-3 wow fadeInUp"
 	data-wow-delay="0.4s"
-	[class.featured]="plan.featured" tabindex="-1">
-	<button class="pricing-block-content" tabindex="-1">
-		<h1>{{ plan.title }}</h1>
-		<p class="pricing-sub">Descrição do plano</p>
-		<button class="pricing" tabindex="-1">
-			<button class="price" tabindex="-1">
+	[class.featured]="plan.featured" tabindex="-1" aria-label="Clique para mais informações">
+	<button class="pricing-block-content" tabindex="-1" aria-label="Clique para mais informações">
+		<h2>{{ plan.title }}</h2>
+		<h2 class="pricing-sub">Descrição do plano</h2>
+		<button class="pricing" tabindex="-1" aria-label="Clique para mais informações">
+			<button class="price" tabindex="-1" aria-label="Clique para mais informações">
 				<strong>{{ plan.currency }}</span
 				>{{ plan.price }}
 			</button>
-			<p>Descrição do plano</p>
+			<h2>Descrição do plano</h2>
 		</button>
 		<ul>
 			<li>{{ plan.downloads }}</li>

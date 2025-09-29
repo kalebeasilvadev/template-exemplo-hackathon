@@ -1,4 +1,4 @@
-<nav [class.expanded]="menuOpen === true">
+<nav [class.expanded]="menuOpen === true" routerLinkActiveOptions="exact: true" role="navigation" aria-label="Menu" tabindex="-1">
 	@for (menuItem of menu; track menuItem) {
 		<li>
 			<nav
@@ -6,7 +6,7 @@
 				(click)="toggleMenu()"
 				routerLinkActive="active"
 				[routerLinkActiveOptions]="{ exact: true }"
-				 aria-label="Menu item {{menuItem.title}}" tabindex="-1">{{ menuItem.title }}</a
+				 aria-label="Menu item {{menuItem.title}}" tabindex="-1" role="navigation">{{ menuItem.title }}</a
 			>
 		</li>
 	}
