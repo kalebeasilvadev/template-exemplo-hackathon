@@ -1,19 +1,19 @@
-<div id="header" class="nav-collapse nav-solid">
-  <div class="row clearfix">
-    <div class="col-1">
+<nav id="header" class="nav-collapse nav-solid">
+  <nav class="row clearfix">
+    <nav class="col-1">
       <!--Logo-->
-      <div id="logo">
+      <nav id="logo">
         <!--Logo that is shown on the banner-->
-        <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" />
+        <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo">
         <!--End of Banner Logo-->
 
         <!--The Logo that is shown on the sticky Navigation Bar-->
         <img
           src="assets/images/logo-2.png"
           id="navigation-logo"
-          alt="Landing Page" />
+          alt="Landing Page" / aria-label="Elemento interativo">
           <!--End of Navigation Logo-->
-        </div>
+        </nav>
         <!--End of Logo-->
 
         <!-- <aside>
@@ -26,12 +26,12 @@
       </nav>
       <!--End of Main Navigation-->
 
-      <div id="nav-trigger">
-        <span
+      <nav id="nav-trigger">
+        <button
           [class.open]="menuOpen === true"
           (onClick)="toggleMenu(!menuOpen)"
-        (onKeyUp)="toggleMenu(!menuOpen)"></span>
-      </div>
+        (onKeyUp)="toggleMenu(!menuOpen)" aria-label="Abrir/fechar menu"></button>
+      </nav>
       <nav id="nav-mobile">
         @if (menuOpen === true) {
           <app-navmenu
@@ -40,7 +40,7 @@
           [menuOpen]="menuOpen"></app-navmenu>
         }
       </nav>
-    </div>
-  </div>
-</div>
+    </nav>
+  </nav>
+</nav>
 <!--End of Header-->

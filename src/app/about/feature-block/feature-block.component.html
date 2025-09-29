@@ -1,11 +1,11 @@
-<div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+<button class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s" tabindex="-1">
 	<!--Icon-->
-	<div class="icon">
-		<i class="fa fa-{{ feature.icon }} fa-2x"></i>
-	</div>
+	<button class="icon" tabindex="-1">
+		<i class="fa fa-{{ feature.icon }} fa-2x" aria-label="{{ feature.title }}" alt="Ícone de {{ feature.icon }}"></i>
+	</button>
 	<!--Icon Block Description-->
-	<div class="icon-block-description">
-		<h4>{{ feature.title }}</h4>
-		<p>{{ feature.description }}</p>
-	</div>
-</div>
+	<button class="icon-block-description" tabindex="-1">
+		<h1>{{ feature.title }}</h1>
+		<p>Descrição simplificada da característica</p>
+	</button>
+</button>

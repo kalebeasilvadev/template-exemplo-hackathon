@@ -1,13 +1,13 @@
-<ul [class.expanded]="menuOpen === true">
+<nav [class.expanded]="menuOpen === true">
 	@for (menuItem of menu; track menuItem) {
 		<li>
-			<a
+			<button
 				routerLink="{{ menuItem.link }}"
 				(click)="toggleMenu()"
 				routerLinkActive="active"
 				[routerLinkActiveOptions]="{ exact: true }"
-				>{{ menuItem.title }}</a
+				 aria-label="Menu item {{menuItem.title}}">{{ menuItem.title }}</a
 			>
 		</li>
 	}
-</ul>
+</nav>

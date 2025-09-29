@@ -1,18 +1,18 @@
 <!--Pricing Block-->
-<div
+<button
 	class="pricing-block col-3 wow fadeInUp"
 	data-wow-delay="0.4s"
-	[class.featured]="plan.featured">
-	<div class="pricing-block-content">
-		<h3>{{ plan.title }}</h3>
+	[class.featured]="plan.featured" tabindex="-1">
+	<button class="pricing-block-content" tabindex="-1">
+		<h1>{{ plan.title }}</h1>
 		<p class="pricing-sub">{{ plan.subtitle }}</p>
-		<div class="pricing">
-			<div class="price">
-				<span>{{ plan.currency }}</span
+		<button class="pricing" tabindex="-1">
+			<button class="price" tabindex="-1">
+				<strong>{{ plan.currency }}</span
 				>{{ plan.price }}
-			</div>
+			</button>
 			<p>{{ plan.description }}</p>
-		</div>
+		</button>
 		<ul>
 			<li>{{ plan.downloads }}</li>
 			<li>{{ plan.extensions }}</li>
@@ -20,7 +20,7 @@
 			<li>{{ plan.support }}</li>
 			<li>{{ plan.updates }}</li>
 		</ul>
-		<a href="{{ plan.buttonlink }}" class="button">{{ plan.buttontext }}</a>
-	</div>
-</div>
+		<button href="{{ plan.buttonlink }}" class="button" aria-label="{{ plan.buttontext }}" tabindex="0">{{ plan.buttontext }}</button>
+	</button>
+</button>
 <!--End Pricing Block-->
