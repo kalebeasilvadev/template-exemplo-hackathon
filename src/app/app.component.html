@@ -13,9 +13,9 @@
 		style="visibility: visible; animation-name: fadeInLeft" aria-label="Canto superior">Canto superior</button>
 </button>
 <!--Main Content Area-->
-<main id="content">
-	<app-navigation></app-navigation>
+<main id="content" role="main">
+	<app-navigation role="navigation"></app-navigation>
 	<router-outlet></router-outlet>
-	<app-footer></app-footer>
+	<app-footer role="contentinfo"></app-footer>
 </main>
 <!--End Main Content Area-->
