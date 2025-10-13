@@ -1,20 +1,20 @@
 # 🚨 Relatório de Validação de Build
 
-**Data:** 13/10/2025, 20:17:36
+**Data:** 13/10/2025, 20:28:45
 **Projeto:** /Users/kalebeandrade/Dev/geral/template-exemplo-hackathon
 **Comando:** npm run build
 **Status:** ❌ FALHOU
 
-## 🔴 Erros Encontrados (34)
+## 🔴 Erros Encontrados (40)
 
 
 ### src/app/about/about-page/about-page.component.html:6:10
 **Código:** NG8002
-**Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'h3'.
+**Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'h1'.
 
 ### src/app/about/about-page/about-page.component.html:7:32
 **Código:** NG8002
-**Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'h2'.
+**Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'h1'.
 
 ### src/app/about/about-page/about-page.component.html:8:34
 **Código:** NG8002
@@ -36,13 +36,17 @@
 **Código:** NG5002
 **Mensagem:** Opening tag "img" not terminated.
 
-### unknown:0:0
-**Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/gallery/image-block/image-block.component.html:6:74 - error TS2339: Property 'alt' does not exist on type 'Image'.
+### src/app/gallery/image-block/image-block.component.html:6:2
+**Código:** NG5002
+**Mensagem:** Opening tag "img" not terminated.
 
-### unknown:0:0
-**Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/gallery/image-block/image-block.component.html:6:81 - error TS2339: Property 'getImageAlt' does not exist on type 'ImageBlockComponent'.
+### src/app/gallery/image-block/image-block.component.html:6:90
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/gallery/image-block/image-block.component.html:6:91
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
 ### src/app/navigation/navigation.component.html:7:9
 **Código:** NG5002
@@ -54,19 +58,27 @@
 
 ### unknown:0:0
 **Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/navmenu/navmenu.component.html:5:29 - error TS2339: Property 'link' does not exist on type 'MenuItem'.
+**Mensagem:** Error: src/app/navmenu/navmenu.component.html:4:31 - error TS2339: Property 'link' does not exist on type 'MenuItem'.
 
 ### unknown:0:0
 **Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/navmenu/navmenu.component.html:9:18 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
+**Mensagem:** Error: src/app/navmenu/navmenu.component.html:7:68 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
 
 ### unknown:0:0
 **Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:82 - error TS2339: Property 'alt' does not exist on type 'Feedback'.
+**Mensagem:** Error: src/app/navmenu/navmenu.component.html:7:90 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
 
-### unknown:0:0
-**Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:89 - error TS2339: Property 'getImageAlt' does not exist on type 'FeedbackBlockComponent'.
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:2
+**Código:** NG5002
+**Mensagem:** Opening tag "img" not terminated.
+
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:95
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:96
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
 ### unknown:0:0
 **Código:** GENERIC_ERROR
@@ -78,11 +90,11 @@
 
 ### src/app/about/about-page/about-page.component.html:6:10
 **Código:** NG8002
-**Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'h3'.
+**Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'h1'.
 
 ### src/app/about/about-page/about-page.component.html:7:32
 **Código:** NG8002
-**Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'h2'.
+**Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'h1'.
 
 ### src/app/about/about-page/about-page.component.html:8:34
 **Código:** NG8002
@@ -104,13 +116,17 @@
 **Código:** NG5002
 **Mensagem:** Opening tag "img" not terminated.
 
-### unknown:0:0
-**Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/gallery/image-block/image-block.component.html:6:74 - error TS2339: Property 'alt' does not exist on type 'Image'.
+### src/app/gallery/image-block/image-block.component.html:6:2
+**Código:** NG5002
+**Mensagem:** Opening tag "img" not terminated.
 
-### unknown:0:0
-**Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/gallery/image-block/image-block.component.html:6:81 - error TS2339: Property 'getImageAlt' does not exist on type 'ImageBlockComponent'.
+### src/app/gallery/image-block/image-block.component.html:6:90
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/gallery/image-block/image-block.component.html:6:91
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
 ### src/app/navigation/navigation.component.html:7:9
 **Código:** NG5002
@@ -122,19 +138,27 @@
 
 ### unknown:0:0
 **Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/navmenu/navmenu.component.html:5:29 - error TS2339: Property 'link' does not exist on type 'MenuItem'.
+**Mensagem:** Error: src/app/navmenu/navmenu.component.html:4:31 - error TS2339: Property 'link' does not exist on type 'MenuItem'.
 
 ### unknown:0:0
 **Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/navmenu/navmenu.component.html:9:18 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
+**Mensagem:** Error: src/app/navmenu/navmenu.component.html:7:68 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
 
 ### unknown:0:0
 **Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:82 - error TS2339: Property 'alt' does not exist on type 'Feedback'.
+**Mensagem:** Error: src/app/navmenu/navmenu.component.html:7:90 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
 
-### unknown:0:0
-**Código:** GENERIC_ERROR
-**Mensagem:** Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:89 - error TS2339: Property 'getImageAlt' does not exist on type 'FeedbackBlockComponent'.
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:2
+**Código:** NG5002
+**Mensagem:** Opening tag "img" not terminated.
+
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:95
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:96
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
 ### unknown:0:0
 **Código:** GENERIC_ERROR
@@ -164,9 +188,9 @@
 ✔ Browser application bundle generation complete.
 ✔ Browser application bundle generation complete.
 
-Error: src/app/about/about-page/about-page.component.html:6:10 - error NG8002: Can't bind to 'aria-label' since it isn't a known property of 'h3'.
+Error: src/app/about/about-page/about-page.component.html:6:10 - error NG8002: Can't bind to 'aria-label' since it isn't a known property of 'h1'.
 
-6      <h3 aria-label="{{ intro.tagline }}">{{ intro.tagline }}</h3>
+6      <h1 aria-label="{{ intro.tagline }}">{{ intro.tagline }}</h1>
            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/about/about-page/about-page.component.ts:11:15
@@ -175,9 +199,9 @@ Error: src/app/about/about-page/about-page.component.html:6:10 - error NG8002: C
     Error occurs in the template of component AboutPageComponent.
 
 
-Error: src/app/about/about-page/about-page.component.html:7:32 - error NG8002: Can't bind to 'aria-label' since it isn't a known property of 'h2'.
+Error: src/app/about/about-page/about-page.component.html:7:32 - error NG8002: Can't bind to 'aria-label' since it isn't a known property of 'h1'.
 
-7      <h2 class="section-title" aria-label="{{ intro.title }}">{{ intro.title }}</h2>
+7      <h1 class="section-title" aria-label="{{ intro.title }}">{{ intro.title }}</h1>
                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/about/about-page/about-page.component.ts:11:15
@@ -234,10 +258,8 @@ Error: src/app/clients/companies-block/companies-block.component.html:2:2 - erro
 
 2  <img
    ~~~~
-3   src="assets/images/company-images/{{ company.logo }}"
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-4   alt="{{ company.name }}" / aria-label="Elemento interativo">
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3   src="assets/images/company-images/{{ company.logo }}" / aria-label="Elemento interativo" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}">
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/clients/companies-block/companies-block.component.ts:6:18
     6     templateUrl: './companies-block.component.html',
@@ -245,10 +267,10 @@ Error: src/app/clients/companies-block/companies-block.component.html:2:2 - erro
     Error occurs in the template of component CompaniesBlockComponent.
 
 
-Error: src/app/gallery/image-block/image-block.component.html:6:74 - error TS2339: Property 'alt' does not exist on type 'Image'.
+Error: src/app/gallery/image-block/image-block.component.html:6:2 - error NG5002: Opening tag "img" not terminated.
 
-6  <img src="assets/images/gallery-images/{{ image.name }}"  alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
-                                                                           ~~~
+6  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
     5     templateUrl: './image-block.component.html',
@@ -256,10 +278,21 @@ Error: src/app/gallery/image-block/image-block.component.html:6:74 - error TS233
     Error occurs in the template of component ImageBlockComponent.
 
 
-Error: src/app/gallery/image-block/image-block.component.html:6:81 - error TS2339: Property 'getImageAlt' does not exist on type 'ImageBlockComponent'.
+Error: src/app/gallery/image-block/image-block.component.html:6:90 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <img src="assets/images/gallery-images/{{ image.name }}"  alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
-                                                                                  ~~~~~~~~~~~
+6  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+                                                                                           ~
+
+  src/app/gallery/image-block/image-block.component.ts:5:18
+    5     templateUrl: './image-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ImageBlockComponent.
+
+
+Error: src/app/gallery/image-block/image-block.component.html:6:91 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+6  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+                                                                                            ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
     5     templateUrl: './image-block.component.html',
@@ -269,8 +302,8 @@ Error: src/app/gallery/image-block/image-block.component.html:6:81 - error TS233
 
 Error: src/app/navigation/navigation.component.html:7:9 - error NG5002: Opening tag "img" not terminated.
 
-7         <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo">
-          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7         <img src="assets/images/logo.png" id="banner-logo" / aria-label="Elemento interativo" alt="Logotipo parcial com letras NAMARI">
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/navigation/navigation.component.ts:8:18
     8     templateUrl: './navigation.component.html',
@@ -284,10 +317,8 @@ Error: src/app/navigation/navigation.component.html:11:9 - error NG5002: Opening
            ~~~~
 12           src="assets/images/logo-2.png"
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-13           id="navigation-logo"
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-14           alt="Landing Page" / aria-label="Elemento interativo">
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13           id="navigation-logo" / aria-label="Elemento interativo" alt="Logotipo NAMARI">
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/navigation/navigation.component.ts:8:18
     8     templateUrl: './navigation.component.html',
@@ -295,21 +326,10 @@ Error: src/app/navigation/navigation.component.html:11:9 - error NG5002: Opening
     Error occurs in the template of component NavigationComponent.
 
 
-Error: src/app/navmenu/navmenu.component.html:5:29 - error TS2339: Property 'link' does not exist on type 'MenuItem'.
+Error: src/app/navmenu/navmenu.component.html:4:31 - error TS2339: Property 'link' does not exist on type 'MenuItem'.
 
-5     routerLink="{{ menuItem.link }}"
-                              ~~~~
-
-  src/app/navmenu/navmenu.component.ts:8:15
-    8  templateUrl: './navmenu.component.html',
-                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component NavmenuComponent.
-
-
-Error: src/app/navmenu/navmenu.component.html:9:18 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
-
-9     >{{ menuItem.title }}</a
-                   ~~~~~
+4    <a routerLink="{{ menuItem.link }}"
+                                ~~~~
 
   src/app/navmenu/navmenu.component.ts:8:15
     8  templateUrl: './navmenu.component.html',
@@ -317,10 +337,32 @@ Error: src/app/navmenu/navmenu.component.html:9:18 - error TS2339: Property 'tit
     Error occurs in the template of component NavmenuComponent.
 
 
-Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:82 - error TS2339: Property 'alt' does not exist on type 'Feedback'.
+Error: src/app/navmenu/navmenu.component.html:7:68 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"  alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" tabindex="0">
-                                                                                   ~~~
+7     [routerLinkActiveOptions]="{ exact: true }" title="{{ menuItem.title }}">{{ menuItem.title }}</a
+                                                                     ~~~~~
+
+  src/app/navmenu/navmenu.component.ts:8:15
+    8  templateUrl: './navmenu.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component NavmenuComponent.
+
+
+Error: src/app/navmenu/navmenu.component.html:7:90 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
+
+7     [routerLinkActiveOptions]="{ exact: true }" title="{{ menuItem.title }}">{{ menuItem.title }}</a
+                                                                                           ~~~~~
+
+  src/app/navmenu/navmenu.component.ts:8:15
+    8  templateUrl: './navmenu.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component NavmenuComponent.
+
+
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:2 - error NG5002: Opening tag "img" not terminated.
+
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}">
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
     6  templateUrl: './feedback-block.component.html',
@@ -328,10 +370,21 @@ Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:82 - e
     Error occurs in the template of component FeedbackBlockComponent.
 
 
-Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:89 - error TS2339: Property 'getImageAlt' does not exist on type 'FeedbackBlockComponent'.
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:95 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"  alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" tabindex="0">
-                                                                                          ~~~~~~~~~~~
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}">
+                                                                                                ~
+
+  src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
+    6  templateUrl: './feedback-block.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component FeedbackBlockComponent.
+
+
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:96 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}">
+                                                                                                 ~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
     6  templateUrl: './feedback-block.component.html',
@@ -341,7 +394,7 @@ Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:89 - e
 
 Error: src/app/testimonial/testimonial-page/testimonial-page.component.html:8:77 - error TS2339: Property 'tagline' does not exist on type 'Testimonial[]'.
 
-8     <h3 class="pull-down" aria-label="Tagline do Testemunho">{{ testimonial.tagline }}</h3>
+8     <h1 class="pull-down" aria-label="Tagline do Testemunho">{{ testimonial.tagline }}</h1>
                                                                               ~~~~~~~
 
   src/app/testimonial/testimonial-page/testimonial-page.component.ts:29:15
@@ -352,7 +405,7 @@ Error: src/app/testimonial/testimonial-page/testimonial-page.component.html:8:77
 
 Error: src/app/testimonial/testimonial-page/testimonial-page.component.html:9:80 - error TS2339: Property 'title' does not exist on type 'Testimonial[]'.
 
-9     <h2 class="section-title" aria-label="Título do Testemunho">{{ testimonial.title }}</h2>
+9     <h1 class="section-title" aria-label="Título do Testemunho">{{ testimonial.title }}</h1>
                                                                                  ~~~~~
 
   src/app/testimonial/testimonial-page/testimonial-page.component.ts:29:15
@@ -367,9 +420,9 @@ Command failed: npm run build
 ✔ Browser application bundle generation complete.
 ✔ Browser application bundle generation complete.
 
-Error: src/app/about/about-page/about-page.component.html:6:10 - error NG8002: Can't bind to 'aria-label' since it isn't a known property of 'h3'.
+Error: src/app/about/about-page/about-page.component.html:6:10 - error NG8002: Can't bind to 'aria-label' since it isn't a known property of 'h1'.
 
-6      <h3 aria-label="{{ intro.tagline }}">{{ intro.tagline }}</h3>
+6      <h1 aria-label="{{ intro.tagline }}">{{ intro.tagline }}</h1>
            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/about/about-page/about-page.component.ts:11:15
@@ -378,9 +431,9 @@ Error: src/app/about/about-page/about-page.component.html:6:10 - error NG8002: C
     Error occurs in the template of component AboutPageComponent.
 
 
-Error: src/app/about/about-page/about-page.component.html:7:32 - error NG8002: Can't bind to 'aria-label' since it isn't a known property of 'h2'.
+Error: src/app/about/about-page/about-page.component.html:7:32 - error NG8002: Can't bind to 'aria-label' since it isn't a known property of 'h1'.
 
-7      <h2 class="section-title" aria-label="{{ intro.title }}">{{ intro.title }}</h2>
+7      <h1 class="section-title" aria-label="{{ intro.title }}">{{ intro.title }}</h1>
                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/about/about-page/about-page.component.ts:11:15
@@ -437,10 +490,8 @@ Error: src/app/clients/companies-block/companies-block.component.html:2:2 - erro
 
 2  <img
    ~~~~
-3   src="assets/images/company-images/{{ company.logo }}"
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-4   alt="{{ company.name }}" / aria-label="Elemento interativo">
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3   src="assets/images/company-images/{{ company.logo }}" / aria-label="Elemento interativo" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}">
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/clients/companies-block/companies-block.component.ts:6:18
     6     templateUrl: './companies-block.component.html',
@@ -448,10 +499,10 @@ Error: src/app/clients/companies-block/companies-block.component.html:2:2 - erro
     Error occurs in the template of component CompaniesBlockComponent.
 
 
-Error: src/app/gallery/image-block/image-block.component.html:6:74 - error TS2339: Property 'alt' does not exist on type 'Image'.
+Error: src/app/gallery/image-block/image-block.component.html:6:2 - error NG5002: Opening tag "img" not terminated.
 
-6  <img src="assets/images/gallery-images/{{ image.name }}"  alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
-                                                                           ~~~
+6  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
     5     templateUrl: './image-block.component.html',
@@ -459,10 +510,21 @@ Error: src/app/gallery/image-block/image-block.component.html:6:74 - error TS233
     Error occurs in the template of component ImageBlockComponent.
 
 
-Error: src/app/gallery/image-block/image-block.component.html:6:81 - error TS2339: Property 'getImageAlt' does not exist on type 'ImageBlockComponent'.
+Error: src/app/gallery/image-block/image-block.component.html:6:90 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <img src="assets/images/gallery-images/{{ image.name }}"  alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
-                                                                                  ~~~~~~~~~~~
+6  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+                                                                                           ~
+
+  src/app/gallery/image-block/image-block.component.ts:5:18
+    5     templateUrl: './image-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ImageBlockComponent.
+
+
+Error: src/app/gallery/image-block/image-block.component.html:6:91 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+6  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+                                                                                            ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
     5     templateUrl: './image-block.component.html',
@@ -472,8 +534,8 @@ Error: src/app/gallery/image-block/image-block.component.html:6:81 - error TS233
 
 Error: src/app/navigation/navigation.component.html:7:9 - error NG5002: Opening tag "img" not terminated.
 
-7         <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo">
-          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7         <img src="assets/images/logo.png" id="banner-logo" / aria-label="Elemento interativo" alt="Logotipo parcial com letras NAMARI">
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/navigation/navigation.component.ts:8:18
     8     templateUrl: './navigation.component.html',
@@ -487,10 +549,8 @@ Error: src/app/navigation/navigation.component.html:11:9 - error NG5002: Opening
            ~~~~
 12           src="assets/images/logo-2.png"
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-13           id="navigation-logo"
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-14           alt="Landing Page" / aria-label="Elemento interativo">
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13           id="navigation-logo" / aria-label="Elemento interativo" alt="Logotipo NAMARI">
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/navigation/navigation.component.ts:8:18
     8     templateUrl: './navigation.component.html',
@@ -498,21 +558,10 @@ Error: src/app/navigation/navigation.component.html:11:9 - error NG5002: Opening
     Error occurs in the template of component NavigationComponent.
 
 
-Error: src/app/navmenu/navmenu.component.html:5:29 - error TS2339: Property 'link' does not exist on type 'MenuItem'.
+Error: src/app/navmenu/navmenu.component.html:4:31 - error TS2339: Property 'link' does not exist on type 'MenuItem'.
 
-5     routerLink="{{ menuItem.link }}"
-                              ~~~~
-
-  src/app/navmenu/navmenu.component.ts:8:15
-    8  templateUrl: './navmenu.component.html',
-                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Error occurs in the template of component NavmenuComponent.
-
-
-Error: src/app/navmenu/navmenu.component.html:9:18 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
-
-9     >{{ menuItem.title }}</a
-                   ~~~~~
+4    <a routerLink="{{ menuItem.link }}"
+                                ~~~~
 
   src/app/navmenu/navmenu.component.ts:8:15
     8  templateUrl: './navmenu.component.html',
@@ -520,10 +569,32 @@ Error: src/app/navmenu/navmenu.component.html:9:18 - error TS2339: Property 'tit
     Error occurs in the template of component NavmenuComponent.
 
 
-Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:82 - error TS2339: Property 'alt' does not exist on type 'Feedback'.
+Error: src/app/navmenu/navmenu.component.html:7:68 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"  alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" tabindex="0">
-                                                                                   ~~~
+7     [routerLinkActiveOptions]="{ exact: true }" title="{{ menuItem.title }}">{{ menuItem.title }}</a
+                                                                     ~~~~~
+
+  src/app/navmenu/navmenu.component.ts:8:15
+    8  templateUrl: './navmenu.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component NavmenuComponent.
+
+
+Error: src/app/navmenu/navmenu.component.html:7:90 - error TS2339: Property 'title' does not exist on type 'MenuItem'.
+
+7     [routerLinkActiveOptions]="{ exact: true }" title="{{ menuItem.title }}">{{ menuItem.title }}</a
+                                                                                           ~~~~~
+
+  src/app/navmenu/navmenu.component.ts:8:15
+    8  templateUrl: './navmenu.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component NavmenuComponent.
+
+
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:2 - error NG5002: Opening tag "img" not terminated.
+
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}">
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
     6  templateUrl: './feedback-block.component.html',
@@ -531,10 +602,21 @@ Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:82 - e
     Error occurs in the template of component FeedbackBlockComponent.
 
 
-Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:89 - error TS2339: Property 'getImageAlt' does not exist on type 'FeedbackBlockComponent'.
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:95 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"  alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" tabindex="0">
-                                                                                          ~~~~~~~~~~~
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}">
+                                                                                                ~
+
+  src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
+    6  templateUrl: './feedback-block.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component FeedbackBlockComponent.
+
+
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:96 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}">
+                                                                                                 ~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
     6  templateUrl: './feedback-block.component.html',
@@ -544,7 +626,7 @@ Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:89 - e
 
 Error: src/app/testimonial/testimonial-page/testimonial-page.component.html:8:77 - error TS2339: Property 'tagline' does not exist on type 'Testimonial[]'.
 
-8     <h3 class="pull-down" aria-label="Tagline do Testemunho">{{ testimonial.tagline }}</h3>
+8     <h1 class="pull-down" aria-label="Tagline do Testemunho">{{ testimonial.tagline }}</h1>
                                                                               ~~~~~~~
 
   src/app/testimonial/testimonial-page/testimonial-page.component.ts:29:15
@@ -555,7 +637,7 @@ Error: src/app/testimonial/testimonial-page/testimonial-page.component.html:8:77
 
 Error: src/app/testimonial/testimonial-page/testimonial-page.component.html:9:80 - error TS2339: Property 'title' does not exist on type 'Testimonial[]'.
 
-9     <h2 class="section-title" aria-label="Título do Testemunho">{{ testimonial.title }}</h2>
+9     <h1 class="section-title" aria-label="Título do Testemunho">{{ testimonial.title }}</h1>
                                                                                  ~~~~~
 
   src/app/testimonial/testimonial-page/testimonial-page.component.ts:29:15

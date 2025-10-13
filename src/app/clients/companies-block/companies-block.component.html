@@ -1,8 +1,7 @@
 <a href="{{ company.weblink }}" class="col-3">
 	<img
-		src="assets/images/company-images/{{ company.logo }}"
-		alt="{{ company.name }}" / aria-label="Elemento interativo">
-	<div class="client-overlay">
+		src="assets/images/company-images/{{ company.logo }}" / aria-label="Elemento interativo" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}">
+	<div class="client-overlay" tabindex="-1">
 		<span>{{ company.name }}</span>
 	</div>
 </a>
