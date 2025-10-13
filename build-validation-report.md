@@ -1,11 +1,11 @@
 # 🚨 Relatório de Validação de Build
 
-**Data:** 13/10/2025, 19:08:03
-**Projeto:** temp-sessions/1760393126598/repo
+**Data:** 13/10/2025, 19:31:17
+**Projeto:** /Users/kalebeandrade/Dev/geral/template-exemplo-hackathon
 **Comando:** npm run build
 **Status:** ❌ FALHOU
 
-## 🔴 Erros Encontrados (72)
+## 🔴 Erros Encontrados (74)
 
 
 ### src/app/about/about-page/about-page.component.html:15:68
@@ -36,6 +36,10 @@
 **Código:** NG8002
 **Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'section'.
 
+### src/app/about/feature-block/feature-block.component.html:9:60
+**Código:** NG8002
+**Mensagem:** Can't bind to 'alt' since it isn't a known property of 'p'.
+
 ### src/app/clients/clients-page/clients-page.component.html:16:57
 **Código:** NG5002
 **Mensagem:** Unexpected closing tag "app-companies-block". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
@@ -56,7 +60,7 @@
 **Código:** NG5002
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-### src/app/footer/footer.component.html:10:62
+### src/app/footer/footer.component.html:10:76
 **Código:** NG5002
 **Mensagem:** Unexpected closing tag "app-social". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 
@@ -180,6 +184,10 @@
 **Código:** NG8002
 **Mensagem:** Can't bind to 'aria-label' since it isn't a known property of 'section'.
 
+### src/app/about/feature-block/feature-block.component.html:9:60
+**Código:** NG8002
+**Mensagem:** Can't bind to 'alt' since it isn't a known property of 'p'.
+
 ### src/app/clients/clients-page/clients-page.component.html:16:57
 **Código:** NG5002
 **Mensagem:** Unexpected closing tag "app-companies-block". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
@@ -200,7 +208,7 @@
 **Código:** NG5002
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-### src/app/footer/footer.component.html:10:62
+### src/app/footer/footer.component.html:10:76
 **Código:** NG5002
 **Mensagem:** Unexpected closing tag "app-social". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 
@@ -393,6 +401,17 @@ Error: src/app/about/feature-block/feature-block.component.html:7:56 - error NG8
     Error occurs in the template of component FeatureBlockComponent.
 
 
+Error: src/app/about/feature-block/feature-block.component.html:9:60 - error NG8002: Can't bind to 'alt' since it isn't a known property of 'p'.
+
+9   <p aria-label="Descrição simplificada da característica" alt="Ícone de {{ feature.icon }}">Descrição simplificada da característica</p>
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/about/feature-block/feature-block.component.ts:6:18
+    6     templateUrl: './feature-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component FeatureBlockComponent.
+
+
 Error: src/app/clients/clients-page/clients-page.component.html:16:57 - error NG5002: Unexpected closing tag "app-companies-block". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 
 16           <buttonpp-companies-block [company]="company"></app-companies-block>
@@ -450,10 +469,10 @@ Error: src/app/clients/companies-block/companies-block.component.html:3:124 - er
     Error occurs in the template of component CompaniesBlockComponent.
 
 
-Error: src/app/footer/footer.component.html:10:62 - error NG5002: Unexpected closing tag "app-social". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+Error: src/app/footer/footer.component.html:10:76 - error NG5002: Unexpected closing tag "app-social". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 
-10         <buttonpp-social aria-label="{{ footer.developer }}"></app-social>
-                                                                ~~~~~~~~~~~~~
+10         <buttonpp-social aria-label="{{ footer.developer }}" tabindex="-1"></app-social>
+                                                                              ~~~~~~~~~~~~~
 
   src/app/footer/footer.component.ts:12:18
     12     templateUrl: './footer.component.html',
@@ -474,7 +493,7 @@ Error: src/app/footer/footer.component.html:11:7 - error NG5002: Unexpected clos
 
 Error: src/app/gallery/image-block/image-block.component.html:6:2 - error NG5002: Opening tag "figure" not terminated.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -485,7 +504,7 @@ Error: src/app/gallery/image-block/image-block.component.html:6:2 - error NG5002
 
 Error: src/app/gallery/image-block/image-block.component.html:6:93 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
                                                                                               ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -496,7 +515,7 @@ Error: src/app/gallery/image-block/image-block.component.html:6:93 - error NG500
 
 Error: src/app/gallery/image-block/image-block.component.html:6:94 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
                                                                                                ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -507,7 +526,7 @@ Error: src/app/gallery/image-block/image-block.component.html:6:94 - error NG500
 
 Error: src/app/gallery/image-block/image-block.component.html:6:128 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
                                                                                                                                  ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -518,7 +537,7 @@ Error: src/app/gallery/image-block/image-block.component.html:6:128 - error NG50
 
 Error: src/app/gallery/image-block/image-block.component.html:6:129 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
                                                                                                                                   ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -529,8 +548,8 @@ Error: src/app/gallery/image-block/image-block.component.html:6:129 - error NG50
 
 Error: src/app/navigation/navigation.component.html:7:9 - error NG5002: Opening tag "img" not terminated.
 
-7         <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo" tabindex="-1">
-          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7         <img src="assets/images/logo.png" id="banner-logo" / aria-label="Elemento interativo" tabindex="-1" alt="Logo Namari">
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/navigation/navigation.component.ts:8:18
     8     templateUrl: './navigation.component.html',
@@ -807,6 +826,17 @@ Error: src/app/about/feature-block/feature-block.component.html:7:56 - error NG8
     Error occurs in the template of component FeatureBlockComponent.
 
 
+Error: src/app/about/feature-block/feature-block.component.html:9:60 - error NG8002: Can't bind to 'alt' since it isn't a known property of 'p'.
+
+9   <p aria-label="Descrição simplificada da característica" alt="Ícone de {{ feature.icon }}">Descrição simplificada da característica</p>
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  src/app/about/feature-block/feature-block.component.ts:6:18
+    6     templateUrl: './feature-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component FeatureBlockComponent.
+
+
 Error: src/app/clients/clients-page/clients-page.component.html:16:57 - error NG5002: Unexpected closing tag "app-companies-block". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 
 16           <buttonpp-companies-block [company]="company"></app-companies-block>
@@ -864,10 +894,10 @@ Error: src/app/clients/companies-block/companies-block.component.html:3:124 - er
     Error occurs in the template of component CompaniesBlockComponent.
 
 
-Error: src/app/footer/footer.component.html:10:62 - error NG5002: Unexpected closing tag "app-social". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+Error: src/app/footer/footer.component.html:10:76 - error NG5002: Unexpected closing tag "app-social". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 
-10         <buttonpp-social aria-label="{{ footer.developer }}"></app-social>
-                                                                ~~~~~~~~~~~~~
+10         <buttonpp-social aria-label="{{ footer.developer }}" tabindex="-1"></app-social>
+                                                                              ~~~~~~~~~~~~~
 
   src/app/footer/footer.component.ts:12:18
     12     templateUrl: './footer.component.html',
@@ -888,7 +918,7 @@ Error: src/app/footer/footer.component.html:11:7 - error NG5002: Unexpected clos
 
 Error: src/app/gallery/image-block/image-block.component.html:6:2 - error NG5002: Opening tag "figure" not terminated.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -899,7 +929,7 @@ Error: src/app/gallery/image-block/image-block.component.html:6:2 - error NG5002
 
 Error: src/app/gallery/image-block/image-block.component.html:6:93 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
                                                                                               ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -910,7 +940,7 @@ Error: src/app/gallery/image-block/image-block.component.html:6:93 - error NG500
 
 Error: src/app/gallery/image-block/image-block.component.html:6:94 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
                                                                                                ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -921,7 +951,7 @@ Error: src/app/gallery/image-block/image-block.component.html:6:94 - error NG500
 
 Error: src/app/gallery/image-block/image-block.component.html:6:128 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
                                                                                                                                  ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -932,7 +962,7 @@ Error: src/app/gallery/image-block/image-block.component.html:6:128 - error NG50
 
 Error: src/app/gallery/image-block/image-block.component.html:6:129 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}">
+6  <figure src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo">
                                                                                                                                   ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -943,8 +973,8 @@ Error: src/app/gallery/image-block/image-block.component.html:6:129 - error NG50
 
 Error: src/app/navigation/navigation.component.html:7:9 - error NG5002: Opening tag "img" not terminated.
 
-7         <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo" tabindex="-1">
-          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7         <img src="assets/images/logo.png" id="banner-logo" / aria-label="Elemento interativo" tabindex="-1" alt="Logo Namari">
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/navigation/navigation.component.ts:8:18
     8     templateUrl: './navigation.component.html',

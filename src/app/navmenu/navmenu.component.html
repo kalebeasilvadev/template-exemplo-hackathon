@@ -1,6 +1,6 @@
 <ul [class.expanded]="menuOpen === true" aria-label="Menu" tabindex="-1">
 	@for (menuItem of menu; track menuItem) {
-		<li>
+		<li aria-label="Menu item {{menuItem.title}}">
 			<ul
 				routerLink="{{ menuItem.link }}"
 				(click)="toggleMenu()"
