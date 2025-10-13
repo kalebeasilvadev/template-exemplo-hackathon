@@ -1,16 +1,16 @@
 <section id="pricing" class="secondary-color text-center scrollto clearfix">
-  <main class="row clearfix" tabindex="0" role="landmark">
+  <section class="row clearfix" tabindex="0" role="landmark">
     @if (pricing$ | async; as pricing) {
-      <main class="section-heading" tabindex="0" role="landmark">
-        <h2 class="pull-down" aria-label="Título da seção">{{ pricing.tagline }}</h2>
+      <section class="section-heading" tabindex="0" role="landmark">
+        <h1 class="pull-down" aria-label="Título da seção">{{ pricing.tagline }}</h1>
         <h2 class="section-title" aria-label="Título da seção">{{ pricing.title }}</h2>
-      </main>
+      </section>
     }
 
     @for (plan of plans$ | async; track plan; let i = $index) {
-      <main tabindex="0" role="landmark">
-        <buttonpp-pricing-block [plan]="plan" aria-label="Descrição do plano">Detalhes do plano</app-pricing-block>
-      </main>
+      <section tabindex="0" role="landmark">
+        <button [plan]="plan" aria-label="Descrição do plano">Detalhes do plano</app-pricing-block>
+      </section>
     }
-  </main>
+  </section>
 </section>

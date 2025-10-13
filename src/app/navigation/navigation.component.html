@@ -1,19 +1,19 @@
-<nav id="header" class="nav-collapse nav-solid" aria-label="Menu principal">
-  <nav class="row clearfix" aria-label="Menu principal">
-    <nav class="col-1" aria-label="Menu principal">
+<main id="header" class="nav-collapse nav-solid" aria-label="Menu principal">
+  <main class="row clearfix" aria-label="Menu principal">
+    <main class="col-1" aria-label="Menu principal">
       <!--Logo-->
-      <nav id="logo" aria-label="Menu principal">
+      <main id="logo" aria-label="Menu principal">
         <!--Logo that is shown on the banner-->
-        <button src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo" tabindex="-1">
+        <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" / aria-label="Elemento interativo" tabindex="-1">
         <!--End of Banner Logo-->
 
         <!--The Logo that is shown on the sticky Navigation Bar-->
-        <button
+        <img
           src="assets/images/logo-2.png"
           id="navigation-logo"
           alt="Landing Page" / aria-label="Elemento interativo" tabindex="-1">
           <!--End of Navigation Logo-->
-        </nav>
+        </main>
         <!--End of Logo-->
 
         <!-- <aside>
@@ -21,26 +21,26 @@
       </aside> -->
 
       <!--Main Navigation-->
-      <nav id="nav-main" aria-label="Menu principal">
+      <main id="nav-main" aria-label="Menu principal">
         <app-navmenu [menu]="menu" [menuOpen]="true" tabindex="-1"></app-navmenu>
-      </nav>
+      </main>
       <!--End of Main Navigation-->
 
-      <nav id="nav-trigger" aria-label="Menu principal">
-        <button
+      <main id="nav-trigger" aria-label="Menu principal">
+        <img
           [class.open]="menuOpen === true"
           (onClick)="toggleMenu(!menuOpen)"
-        (onKeyUp)="toggleMenu(!menuOpen)" aria-label="Abrir/fechar menu" alt="Landing Page" tabindex="-1">Abrir/fechar menu</button>
-      </nav>
-      <nav id="nav-mobile" aria-label="Menu principal">
+        (onKeyUp)="toggleMenu(!menuOpen)" aria-label="Abrir/fechar menu" alt="Landing Page" tabindex="-1">Abrir/fechar menu</img>
+      </main>
+      <main id="nav-mobile" aria-label="Menu principal">
         @if (menuOpen === true) {
           <app-navmenu
             [menu]="menu"
             (menuStatus)="toggleMenu($event)"
           [menuOpen]="menuOpen" tabindex="-1"></app-navmenu>
         }
-      </nav>
-    </nav>
-  </nav>
-</nav>
+      </main>
+    </main>
+  </main>
+</main>
 <!--End of Header-->
