@@ -1,12 +1,10 @@
 <ul [class.expanded]="menuOpen === true">
 	@for (menuItem of menu; track menuItem) {
 		<li>
-			<a
-				routerLink="{{ menuItem.link }}"
+			<a routerLink="{{ menuItem.link }}"
 				(click)="toggleMenu()"
 				routerLinkActive="active"
-				[routerLinkActiveOptions]="{ exact: true }"
-				>{{ menuItem.title }}</a
+				[routerLinkActiveOptions]="{ exact: true }" [attr.aria-label]="Ir para menuItem.link">{{ menuItem.title }}</a
 			>
 		</li>
 	}

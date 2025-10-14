@@ -1,17 +1,16 @@
-<div id="header" class="nav-collapse nav-solid">
-  <div class="row clearfix">
-    <div class="col-1">
+<div id="header" class="nav-collapse nav-solid" tabindex="-1">
+  <div class="row clearfix" tabindex="-1">
+    <div class="col-1" tabindex="-1">
       <!--Logo-->
-      <div id="logo">
+      <div id="logo" tabindex="-1">
         <!--Logo that is shown on the banner-->
-        <img src="assets/images/logo.png" id="banner-logo" alt="Landing Page" />
+        <img src="assets/images/logo.png" id="banner-logo" alt="Logotipo Namari" />
         <!--End of Banner Logo-->
 
         <!--The Logo that is shown on the sticky Navigation Bar-->
         <img
           src="assets/images/logo-2.png"
-          id="navigation-logo"
-          alt="Landing Page" />
+          id="navigation-logo" alt="Logo Namari" />
           <!--End of Navigation Logo-->
         </div>
         <!--End of Logo-->
@@ -21,18 +20,17 @@
       </aside> -->
 
       <!--Main Navigation-->
-      <nav id="nav-main">
+      <nav id="nav-main" tabindex="0" aria-label="Menu principal">
         <app-navmenu [menu]="menu" [menuOpen]="true"></app-navmenu>
       </nav>
       <!--End of Main Navigation-->
 
-      <div id="nav-trigger">
-        <span
-          [class.open]="menuOpen === true"
+      <div id="nav-trigger" tabindex="-1">
+        <span [class.open]="menuOpen === true"
           (onClick)="toggleMenu(!menuOpen)"
-        (onKeyUp)="toggleMenu(!menuOpen)"></span>
+        (onKeyUp)="toggleMenu(!menuOpen)" aria-label="Abrir menu"></span>
       </div>
-      <nav id="nav-mobile">
+      <nav id="nav-mobile" tabindex="0" aria-label="Menu principal">
         @if (menuOpen === true) {
           <app-navmenu
             [menu]="menu"
