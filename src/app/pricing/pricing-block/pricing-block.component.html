@@ -4,7 +4,7 @@
 	data-wow-delay="0.4s"
 	[class.featured]="plan.featured">
 	<div class="pricing-block-content">
-		<h3>{{ plan.title }}</h3>
+		<h1>{{ plan.title }}</h1>
 		<p class="pricing-sub">{{ plan.subtitle }}</p>
 		<div class="pricing">
 			<div class="price">
@@ -13,14 +13,14 @@
 			</div>
 			<p>{{ plan.description }}</p>
 		</div>
-		<ul>
-			<li>{{ plan.downloads }}</li>
-			<li>{{ plan.extensions }}</li>
-			<li>{{ plan.tutorials }}</li>
-			<li>{{ plan.support }}</li>
-			<li>{{ plan.updates }}</li>
+		<ul aria-label="Características deste plano" role="navigation">
+			<li aria-label="Baixas ilimitadas">{{ plan.downloads }}</li>
+			<li aria-label="Baixas ilimitadas">{{ plan.extensions }}</li>
+			<li aria-label="Baixas ilimitadas">{{ plan.tutorials }}</li>
+			<li aria-label="Baixas ilimitadas">{{ plan.support }}</li>
+			<li aria-label="Baixas ilimitadas">{{ plan.updates }}</li>
 		</ul>
-		<a href="{{ plan.buttonlink }}" class="button">{{ plan.buttontext }}</a>
+		<a href="{{ plan.buttonlink }}" class="button" aria-label="Saiba mais sobre este plano" tabindex="0">{{ plan.buttontext }}</a>
 	</div>
 </div>
 <!--End Pricing Block-->

@@ -8,7 +8,7 @@
 		<meta name="description" content="" />
 		<meta
 			name="viewport"
-			content="width=device-width, initial-scale=1.0, user-scalable=no" />
+			content="width=device-width, initial-scale=1.0/>
 		<base href="/" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -41,19 +41,17 @@
 
 	<body>
 		<app-root>
-			<div id="preloader">
-				<div id="status" class="la-ball-triangle-path">
-					<div></div>
-					<div></div>
-					<div></div>
+			<div id="preloader" aria-label="Carregando..." tabindex="-1">
+				<div id="status" class="la-ball-triangle-path" aria-label="Carregando..." tabindex="-1">
+					<div aria-label="Carregando..." tabindex="-1"></div>
+					<div aria-label="Carregando..." tabindex="-1"></div>
+					<div aria-label="Carregando..." tabindex="-1"></div>
 				</div>
 			</div>
 		</app-root>
-		<script
-			type="module"
-			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-		<script
-			nomodule
-			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" role="presentation" nomodule="true"></script>
+		<script nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" role="presentation"></script>
 	</body>
 </html>

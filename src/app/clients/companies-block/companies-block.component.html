@@ -1,7 +1,5 @@
-<a href="{{ company.weblink }}" class="col-3">
-	<img
-		src="assets/images/company-images/{{ company.logo }}"
-		alt="{{ company.name }}" />
+<a href="{{ company.weblink }}" class="col-3" aria-label="Link para site da empresa">
+	<img src="assets/images/company-images/{{ company.logo }}" aria-label="Elemento interativo" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
 	<div class="client-overlay">
 		<span>{{ company.name }}</span>
 	</div>
