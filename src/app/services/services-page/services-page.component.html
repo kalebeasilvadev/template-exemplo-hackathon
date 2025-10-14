@@ -1,11 +1,10 @@
 @if (services$ | async; as services) {
-  <div
-    id="services"
+  <div id="services"
     class="scrollto clearfix"
-     tabindex="-1">
-    <div class="row no-padding-bottom clearfix" tabindex="-1">
+     tabindex="-1" role="landmark">
+    <div class="row no-padding-bottom clearfix" tabindex="-1" role="landmark">
       <!--Content Left Side-->
-      <div class="col-3" tabindex="-1">
+      <div class="col-3" tabindex="-1" role="landmark">
         <!--User Testimonial-->
         <blockquote class="testimonial text-right bigtest">
           <q
@@ -18,8 +17,8 @@
         </div>
         <!--End Content Left Side-->
         <!--Content of the Right Side-->
-        <div class="col-3" tabindex="-1">
-          <div class="section-heading" tabindex="-1">
+        <div class="col-3" tabindex="-1" role="landmark">
+          <div class="section-heading" tabindex="-1" role="landmark">
             <h1>{{ services.tagline }}</h1>
             <h2 class="section-title">{{ services.title }}</h2>
             <p class="section-subtitle">{{ services.description }}</p>
@@ -45,7 +44,7 @@
           </a>
         </div>
         <!--End Content Right Side-->
-        <div class="col-3" tabindex="-1">
+        <div class="col-3" tabindex="-1" role="landmark">
           <img src="assets/images/dancer.jpg"  alt="Dançarino em pose dinâmica com braço levantado e linhas geométricas sobrepostas.">
         </div>
       </div>
