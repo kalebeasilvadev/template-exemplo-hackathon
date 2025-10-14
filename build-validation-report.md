@@ -1,11 +1,11 @@
 # 🚨 Relatório de Validação de Build
 
-**Data:** 13/10/2025, 22:37:10
+**Data:** 13/10/2025, 23:13:37
 **Projeto:** /Users/kalebeandrade/Dev/geral/template-exemplo-hackathon
 **Comando:** npm run build
 **Status:** ❌ FALHOU
 
-## 🔴 Erros Encontrados (68)
+## 🔴 Erros Encontrados (80)
 
 
 ### src/app/about/feature-block/feature-block.component.html:4:64
@@ -56,6 +56,14 @@
 **Código:** NG5002
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
+### src/app/clients/companies-block/companies-block.component.html:3:123
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/clients/companies-block/companies-block.component.html:3:124
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
 ### src/app/gallery/image-block/image-block.component.html:5:2
 **Código:** NG5002
 **Mensagem:** Opening tag "img" not terminated.
@@ -65,6 +73,14 @@
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
 ### src/app/gallery/image-block/image-block.component.html:5:91
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/gallery/image-block/image-block.component.html:5:125
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/gallery/image-block/image-block.component.html:5:126
 **Código:** NG5002
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
@@ -133,6 +149,14 @@
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
 ### src/app/testimonial/feedback-block/feedback-block.component.html:2:96
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:143
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:144
 **Código:** NG5002
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
@@ -192,6 +216,14 @@
 **Código:** NG5002
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
+### src/app/clients/companies-block/companies-block.component.html:3:123
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/clients/companies-block/companies-block.component.html:3:124
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
 ### src/app/gallery/image-block/image-block.component.html:5:2
 **Código:** NG5002
 **Mensagem:** Opening tag "img" not terminated.
@@ -201,6 +233,14 @@
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
 ### src/app/gallery/image-block/image-block.component.html:5:91
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/gallery/image-block/image-block.component.html:5:125
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/gallery/image-block/image-block.component.html:5:126
 **Código:** NG5002
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
@@ -269,6 +309,14 @@
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
 ### src/app/testimonial/feedback-block/feedback-block.component.html:2:96
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:143
+**Código:** NG5002
+**Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+### src/app/testimonial/feedback-block/feedback-block.component.html:2:144
 **Código:** NG5002
 **Mensagem:** Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
@@ -349,7 +397,7 @@ Error: src/app/clients/companies-block/companies-block.component.html:2:2 - erro
 
 2  <img
    ~~~~
-3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/clients/companies-block/companies-block.component.ts:6:18
@@ -360,7 +408,7 @@ Error: src/app/clients/companies-block/companies-block.component.html:2:2 - erro
 
 Error: src/app/clients/companies-block/companies-block.component.html:3:88 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                          ~
 
   src/app/clients/companies-block/companies-block.component.ts:6:18
@@ -371,8 +419,30 @@ Error: src/app/clients/companies-block/companies-block.component.html:3:88 - err
 
 Error: src/app/clients/companies-block/companies-block.component.html:3:89 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                           ~
+
+  src/app/clients/companies-block/companies-block.component.ts:6:18
+    6     templateUrl: './companies-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component CompaniesBlockComponent.
+
+
+Error: src/app/clients/companies-block/companies-block.component.html:3:123 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                            ~
+
+  src/app/clients/companies-block/companies-block.component.ts:6:18
+    6     templateUrl: './companies-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component CompaniesBlockComponent.
+
+
+Error: src/app/clients/companies-block/companies-block.component.html:3:124 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                             ~
 
   src/app/clients/companies-block/companies-block.component.ts:6:18
     6     templateUrl: './companies-block.component.html',
@@ -382,7 +452,7 @@ Error: src/app/clients/companies-block/companies-block.component.html:3:89 - err
 
 Error: src/app/gallery/image-block/image-block.component.html:5:2 - error NG5002: Opening tag "img" not terminated.
 
-5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -393,7 +463,7 @@ Error: src/app/gallery/image-block/image-block.component.html:5:2 - error NG5002
 
 Error: src/app/gallery/image-block/image-block.component.html:5:90 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                            ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -404,8 +474,30 @@ Error: src/app/gallery/image-block/image-block.component.html:5:90 - error NG500
 
 Error: src/app/gallery/image-block/image-block.component.html:5:91 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                             ~
+
+  src/app/gallery/image-block/image-block.component.ts:5:18
+    5     templateUrl: './image-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ImageBlockComponent.
+
+
+Error: src/app/gallery/image-block/image-block.component.html:5:125 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                              ~
+
+  src/app/gallery/image-block/image-block.component.ts:5:18
+    5     templateUrl: './image-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ImageBlockComponent.
+
+
+Error: src/app/gallery/image-block/image-block.component.html:5:126 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                               ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
     5     templateUrl: './image-block.component.html',
@@ -454,7 +546,7 @@ Error: src/app/social/social.component.html:6:72 - error NG5002: Parser Error: U
 
 Error: src/app/social/social.component.html:6:72 - error TS2339: Property 'Link' does not exist on type 'SocialComponent'.
 
-6     href="{{ website.link }}{{ website.username }}" [attr.aria-label]="Link para website.title">
+6     href="{{ website.link }}{{ website.username }}" [attr.aria-label]="Link para website.title" tabindex="0">
                                                                          ~~~~
 
   src/app/social/social.component.ts:9:15
@@ -479,7 +571,7 @@ Error: src/app/social/social.component.html:8:12 - error NG5002: Parser Error: U
 
 Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:2 - error NG5002: Opening tag "img" not terminated.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" />
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
@@ -490,7 +582,7 @@ Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:2 - er
 
 Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:95 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" />
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                                 ~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
@@ -501,8 +593,30 @@ Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:95 - e
 
 Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:96 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" />
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                                  ~
+
+  src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
+    6  templateUrl: './feedback-block.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component FeedbackBlockComponent.
+
+
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:143 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                                                ~
+
+  src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
+    6  templateUrl: './feedback-block.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component FeedbackBlockComponent.
+
+
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:144 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                                                 ~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
     6  templateUrl: './feedback-block.component.html',
@@ -587,7 +701,7 @@ Error: src/app/clients/companies-block/companies-block.component.html:2:2 - erro
 
 2  <img
    ~~~~
-3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/clients/companies-block/companies-block.component.ts:6:18
@@ -598,7 +712,7 @@ Error: src/app/clients/companies-block/companies-block.component.html:2:2 - erro
 
 Error: src/app/clients/companies-block/companies-block.component.html:3:88 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                          ~
 
   src/app/clients/companies-block/companies-block.component.ts:6:18
@@ -609,8 +723,30 @@ Error: src/app/clients/companies-block/companies-block.component.html:3:88 - err
 
 Error: src/app/clients/companies-block/companies-block.component.html:3:89 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                           ~
+
+  src/app/clients/companies-block/companies-block.component.ts:6:18
+    6     templateUrl: './companies-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component CompaniesBlockComponent.
+
+
+Error: src/app/clients/companies-block/companies-block.component.html:3:123 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                            ~
+
+  src/app/clients/companies-block/companies-block.component.ts:6:18
+    6     templateUrl: './companies-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component CompaniesBlockComponent.
+
+
+Error: src/app/clients/companies-block/companies-block.component.html:3:124 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+3   src="assets/images/company-images/{{ company.logo }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ company.alt || getImageAlt(company.logo) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                             ~
 
   src/app/clients/companies-block/companies-block.component.ts:6:18
     6     templateUrl: './companies-block.component.html',
@@ -620,7 +756,7 @@ Error: src/app/clients/companies-block/companies-block.component.html:3:89 - err
 
 Error: src/app/gallery/image-block/image-block.component.html:5:2 - error NG5002: Opening tag "img" not terminated.
 
-5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -631,7 +767,7 @@ Error: src/app/gallery/image-block/image-block.component.html:5:2 - error NG5002
 
 Error: src/app/gallery/image-block/image-block.component.html:5:90 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                            ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
@@ -642,8 +778,30 @@ Error: src/app/gallery/image-block/image-block.component.html:5:90 - error NG500
 
 Error: src/app/gallery/image-block/image-block.component.html:5:91 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                             ~
+
+  src/app/gallery/image-block/image-block.component.ts:5:18
+    5     templateUrl: './image-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ImageBlockComponent.
+
+
+Error: src/app/gallery/image-block/image-block.component.html:5:125 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                              ~
+
+  src/app/gallery/image-block/image-block.component.ts:5:18
+    5     templateUrl: './image-block.component.html',
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component ImageBlockComponent.
+
+
+Error: src/app/gallery/image-block/image-block.component.html:5:126 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+5  <img src="assets/images/gallery-images/{{ image.name }}"Imagem relacionada ao conteúdo' }}"Imagem relacionada ao conteúdo' }}" alt="{{ image.alt || getImageAlt(image.name) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                               ~
 
   src/app/gallery/image-block/image-block.component.ts:5:18
     5     templateUrl: './image-block.component.html',
@@ -692,7 +850,7 @@ Error: src/app/social/social.component.html:6:72 - error NG5002: Parser Error: U
 
 Error: src/app/social/social.component.html:6:72 - error TS2339: Property 'Link' does not exist on type 'SocialComponent'.
 
-6     href="{{ website.link }}{{ website.username }}" [attr.aria-label]="Link para website.title">
+6     href="{{ website.link }}{{ website.username }}" [attr.aria-label]="Link para website.title" tabindex="0">
                                                                          ~~~~
 
   src/app/social/social.component.ts:9:15
@@ -717,7 +875,7 @@ Error: src/app/social/social.component.html:8:12 - error NG5002: Parser Error: U
 
 Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:2 - error NG5002: Opening tag "img" not terminated.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" />
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
@@ -728,7 +886,7 @@ Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:2 - er
 
 Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:95 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" />
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                                 ~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
@@ -739,8 +897,30 @@ Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:95 - e
 
 Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:96 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
 
-2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" />
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
                                                                                                  ~
+
+  src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
+    6  templateUrl: './feedback-block.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component FeedbackBlockComponent.
+
+
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:143 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                                                ~
+
+  src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
+    6  templateUrl: './feedback-block.component.html',
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component FeedbackBlockComponent.
+
+
+Error: src/app/testimonial/feedback-block/feedback-block.component.html:2:144 - error NG5002: Unexpected closing block. The block may have been closed earlier. If you meant to write the } character, you should use the "&#125;" HTML entity instead.
+
+2  <img src="assets/images/user-images/{{ feedback.userimage }}"Imagem relacionada ao conteúdo' }}" tabindex="0"Imagem relacionada ao conteúdo' }}" aria-label="Imagem relacionada ao conteúdo" alt="{{ feedback.alt || getImageAlt(feedback.userimage) || 'Imagem relacionada ao conteúdo' }}" />
+                                                                                                                                                 ~
 
   src/app/testimonial/feedback-block/feedback-block.component.ts:6:15
     6  templateUrl: './feedback-block.component.html',

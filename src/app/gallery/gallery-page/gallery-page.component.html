@@ -1,8 +1,8 @@
 <section id="gallery" class="introduction scrollto text-center">
-	<div class="row clearfix" tabindex="-1">
+	<div class="row clearfix" tabindex="-1" aria-label="Imagem">
 		<aside id="gallery" class="row text-center scrollto clearfix">
 			@for (image of images$ | async; track image; let i = $index) {
-				<div tabindex="-1">
+				<div tabindex="-1" aria-label="Imagem">
 					<app-image-block [image]="image"></app-image-block>
 				</div>
 			}
