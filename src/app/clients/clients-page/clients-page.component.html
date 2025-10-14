@@ -1,18 +1,18 @@
 <section id="clients" class="scrollto clearfix">
-  <div class="row clearfix pull-right">
+  <div class="row clearfix pull-right" tabindex="-1" aria-label="Seção de clientes">
     @if (clients$ | async; as clients) {
-      <div class="col-3">
-        <div class="section-heading">
-          <h3>{{ clients.tagline }}</h3>
-          <h2 class="section-title">{{ clients.title }}</h2>
-          <p class="section-subtitle">{{ clients.description }}</p>
+      <div class="col-3" tabindex="-1" aria-label="Seção de clientes">
+        <div class="section-heading" tabindex="-1" aria-label="Seção de clientes">
+          <h1 [attr.aria-label]="clients.tagline">{{ clients.tagline }}</h1>
+          <h2 class="section-title" [attr.aria-label]="clients.title">{{ clients.title }}</h2>
+          <p class="section-subtitle" [attr.aria-label]="clients.description">{{ clients.description }}</p>
         </div>
       </div>
     }
 
-    <div class="col-2-3">
+    <div class="col-2-3" tabindex="-1" aria-label="Seção de clientes">
       @for (company of companies$ | async; track company; let i = $index) {
-        <div>
+        <div tabindex="-1" aria-label="Seção de clientes">
           <app-companies-block [company]="company"></app-companies-block>
         </div>
       }
