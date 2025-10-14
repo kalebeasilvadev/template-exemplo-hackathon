@@ -9,8 +9,7 @@
 
         <!--The Logo that is shown on the sticky Navigation Bar-->
         <img src="assets/images/logo-2.png"
-          id="navigation-logo"
-          alt="Landing Page" aria-label="Elemento interativo" />
+          id="navigation-logo" aria-label="Elemento interativo" alt="Logo Namari" />
           <!--End of Navigation Logo-->
         </div>
         <!--End of Logo-->
@@ -20,7 +19,7 @@
       </aside> -->
 
       <!--Main Navigation-->
-      <nav id="nav-main" tabindex="0">
+      <nav id="nav-main" tabindex="0" aria-label="Menu principal">
         <app-navmenu [menu]="menu" [menuOpen]="true"></app-navmenu>
       </nav>
       <!--End of Main Navigation-->
@@ -30,7 +29,7 @@
           (onClick)="toggleMenu(!menuOpen)"
         (onKeyUp)="toggleMenu(!menuOpen)" aria-label="Abrir menu"></span>
       </div>
-      <nav id="nav-mobile" tabindex="0">
+      <nav id="nav-mobile" tabindex="0" aria-label="Menu principal">
         @if (menuOpen === true) {
           <app-navmenu
             [menu]="menu"
