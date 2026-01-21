@@ -21,29 +21,29 @@ body {
 
 a,
 .la-ball-triangle-path {
-  color: #d2b356;
+  color: #333;
 }
 
 a:hover,
 #header.nav-solid nav a:hover {
-  color: #d2b356;
+  color: #333;
 }
 
 /* Default Icon Color */
 
 .icon i {
-  color: #d2b356;
+  color: #333;
 }
 
 /* Border Color */
 
 #banner .section-heading:before,
 .testimonial.classic footer:before {
-  background: #d2b356;
+  background: #333;
 }
 
 .pricing-block-content:hover {
-  border-color: #d2b356;
+  border-color: #333;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -54,7 +54,7 @@ a:hover,
 
 #header nav a,
 #header i {
-  color: #111;
+  color: #fff;
 }
 
 /* Navigation Colors when the Navigation is sticky and solid */
@@ -63,14 +63,14 @@ a:hover,
 #header.nav-solid a,
 #header.nav-solid i,
 #nav-mobile ul li a {
-  color: #333;
+  color: #fff;
 }
 
 /* Navigation Active State */
 
 #header.nav-solid .active {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #333;
+  border-color: #333;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -81,7 +81,7 @@ a:hover,
 
 .primary-color,
 .featured .pricing {
-  background-color: #d2b356;
+  background-color: #333;
 }
 
 .primary-color,
@@ -93,7 +93,7 @@ a:hover,
 }
 
 .section-heading h2:after {
-  background: #d2b356;
+  background: #333;
   content: "";
   display: block;
   width: 30px;
@@ -138,7 +138,7 @@ body {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 15px;
   font-weight: normal;
-  color: #111;
+  color: #fff;
 }
 
 /* Logo, if you are using Fonts as Logo and not image
@@ -166,14 +166,14 @@ body {
   font-size: 62px;
   line-height: 60px;
   font-weight: 800;
-  color: #111;
+  color: #fff;
 }
 
 #banner h2 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 300;
-  color: #111;
+  color: #fff;
 }
 
 /* Section Title and Subtitle */
@@ -182,14 +182,14 @@ body {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 34px;
   font-weight: 700;
-  color: #111;
+  color: #fff;
 }
 
 .section-subtitle {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 300;
-  color: #9c9c9c;
+  color: #636363;
 }
 
 /* Testimonial */
@@ -202,7 +202,7 @@ body {
 
 .testimonial.classic q,
 .testimonial.classic footer {
-  color: #111;
+  color: #fff;
 }
 
 /* Standard Headings h1-h6 */
@@ -211,42 +211,42 @@ h1 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 40px;
   font-weight: 300;
-  color: #111;
+  color: #fff;
 }
 
 h2 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 34px;
   font-weight: 300;
-  color: #111;
+  color: #fff;
 }
 
 h3 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 30px;
   font-weight: 700;
-  color: #111;
+  color: #fff;
 }
 
 h4 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 400;
-  color: #111;
+  color: #fff;
 }
 
 h5 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 16px;
   font-weight: 400;
-  color: #111;
+  color: #fff;
 }
 
 h6 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 14px;
   font-weight: 400;
-  color: #111;
+  color: #fff;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -262,22 +262,22 @@ input[type="submit"] {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 14px;
   font-weight: bold;
-  color: #111;
+  color: #fff;
 }
 
 /* Button Color */
 
 .button,
 input[type="submit"] {
-  border-color: #111;
+  border-color: #fff;
 }
 
 /* Button Hover Color */
 
 .button:hover,
 input[type="submit"]:hover {
-  border-color: #d2b356;
-  color: #d2b356;
+  border-color: #333;
+  color: #333;
 }
 
 /* ----------Banner Buttons---------- */
@@ -287,20 +287,20 @@ input[type="submit"]:hover {
 #banner .button {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 16px;
-  color: #111;
+  color: #fff;
 }
 
 /* Button Color */
 
 #banner .button {
-  border-color: #111;
+  border-color: #fff;
 }
 
 /* Button Hover Color */
 
 #banner .button:hover {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #333;
+  border-color: #333;
 }
 
 /*------------------------------------------------------------------------------------------*/
